@@ -1,0 +1,4 @@
+#azure-eventhub
+azure-data-tables
+termcolor
+paho-mqtt
