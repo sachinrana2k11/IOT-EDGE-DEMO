@@ -22,5 +22,5 @@ while True:
         #module_client.send_message_to_output(msg,t_data[1])           # Send the message.
         mqtt.MQTT_Send_Data(t_data[0])
         print("Message sent: {}".format(t_data[0]))
-        time.sleep(0.5)
+        time.sleep(5)
     

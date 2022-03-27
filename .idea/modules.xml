@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../AZURE POC/Azure_poc_controller/.idea/Azure_poc_controller.iml" filepath="$PROJECT_DIR$/../../AZURE POC/Azure_poc_controller/.idea/Azure_poc_controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IOT-EDGE-DEMO.iml" filepath="$PROJECT_DIR$/.idea/IOT-EDGE-DEMO.iml" />
     </modules>
   </component>

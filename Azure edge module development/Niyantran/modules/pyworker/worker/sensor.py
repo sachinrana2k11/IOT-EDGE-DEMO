@@ -5,11 +5,11 @@ from pytz import timezone
 
 class sensor:
     def __init__(self):
-        self.device_id = ["S1", "S2", "S3"]
-        #self.device_id = ["S4", "S5", "S6"]
+        #self.device_id = ["S1", "S2", "S3"]
+        self.device_id = ["S4", "S5", "S6"]
         self.Data_Field = ["Temperature", "Humidity"]
-        self.EdgeID = "1891832b-cbca-43ba-9c6b-192660b316a6"
-        #self.EdgeID = "9c2f0f03-5778-4d6b-a6e9-42fa473752e4"
+        #self.EdgeID = "1891832b-cbca-43ba-9c6b-192660b316a6"
+        self.EdgeID = "9c2f0f03-5778-4d6b-a6e9-42fa473752e4"
         self.a = 0
  
 
