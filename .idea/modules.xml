@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../AZURE POC/Azure_poc_controller/.idea/Azure_poc_controller.iml" filepath="$PROJECT_DIR$/../../AZURE POC/Azure_poc_controller/.idea/Azure_poc_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../AZURE POC/EY PREP/.idea/EY PREP.iml" filepath="$PROJECT_DIR$/../../AZURE POC/EY PREP/.idea/EY PREP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IOT-EDGE-DEMO.iml" filepath="$PROJECT_DIR$/.idea/IOT-EDGE-DEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../TAG-N-TRAC-WORK/Work/Simulators/TNT-GW/.idea/TNT-GW.iml" filepath="$PROJECT_DIR$/../../TAG-N-TRAC-WORK/Work/Simulators/TNT-GW/.idea/TNT-GW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../TAG-N-TRAC-WORK/Work/Simulators/TNTGW/.idea/TNTGW.iml" filepath="$PROJECT_DIR$/../../TAG-N-TRAC-WORK/Work/Simulators/TNTGW/.idea/TNTGW.iml" />
     </modules>
   </component>
 </project>

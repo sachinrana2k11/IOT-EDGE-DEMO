@@ -1,0 +1,7 @@
+
+jpython:S116"SRename this field "MQTT_client" to match the regular expression ^[_a-z][_a-z0-9]*$.(äÂĞ˜
+‚python:S101"fRename class "Generic_Mqtt" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(î±Ø‹øÿÿÿÿ
+gpython:S100"PRename method "MQTT_Connect" to match the regular expression ^[a-z_][a-z0-9_]*$.(®´…
+4python:S2772+"Remove this unneeded "pass".(ã‘Û¾
+npython:S100-"RRename method "MQTT_Send_Data" to match the regular expression ^[a-z_][a-z0-9_]*$.(¿Èôåùÿÿÿÿ
+4python:S27725"Remove this unneeded "pass".(ã‘Û¾

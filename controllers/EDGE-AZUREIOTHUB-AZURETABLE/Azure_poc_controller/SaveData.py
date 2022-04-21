@@ -2,10 +2,15 @@ from azure.data.tables import TableServiceClient
 import logging,sys
 import uuid
 from queue import Queue
+import os
+from dotenv import load_dotenv
+load_dotenv()
 class savedata:
     def __init__(self):
         self.q = Queue()
-        self.conn_str = "DefaultEndpointsProtocol=https;AccountName=storageaccountnewte97ef;AccountKey=PVbM+xvgMTpCMA0jipqBo7iKZunv1uPs5utcRohnDCqPGkbcLlwbwHjv9CBdJHEmjVYLi/A+KTkVveQc2dZecA==;EndpointSuffix=core.windows.net"
+        self.conn_str = os.getenv('AZURE_TABLE_CONN_STR')
+        self.table1 = os.getenv('AZURE_TABLE_1')
+        self.table2 = os.getenv('AZURE_TABLE_2')
         self.table_service_client = TableServiceClient.from_connection_string(conn_str=self.conn_str)
         self.appid = u"AzurePoc"
         self.productname = u"HomeAutomation"
@@ -44,9 +49,9 @@ class savedata:
             'timestamp': data["timestamp"]
         }
         if data["EdgeID"] == "1891832b-cbca-43ba-9c6b-192660b316a6":
-            return [test,"EDGE1"]
+            return [test,self.table1]
         if data["EdgeID"] == "9c2f0f03-5778-4d6b-a6e9-42fa473752e4":
-            return [test,"EDGE2"]
+            return [test,self.table2]
 
 
 # my_entity = {

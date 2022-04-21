@@ -5,5 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Azure_poc_controller" />
+    <orderEntry type="module" module-name="EY PREP" />
+    <orderEntry type="module" module-name="TNT-GW" />
+    <orderEntry type="module" module-name="TNTGW" />
   </component>
 </module>

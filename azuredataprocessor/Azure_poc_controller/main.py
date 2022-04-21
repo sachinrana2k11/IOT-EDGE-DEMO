@@ -2,8 +2,12 @@ import json, time,sys
 from azure.eventhub import EventHubConsumerClient
 from SaveData import savedata
 import threading
-CONNECTION_STR = "Endpoint=sb://ihsuprodpnres008dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=qd8yo8ga8p6xIPX67Y6CxprBWiJ8URtt5Q28qPvebm8=;EntityPath=iothub-ehub-ideaxa-iot-16068338-c9744dbf0e"#os.environ["EVENT_HUB_CONN_STR"]
-EVENTHUB_NAME = "iothub-ehub-ideaxa-iot-16068338-c9744dbf0e"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+CONNECTION_STR = os.getenv("EVENT_HUB_CONN_STR")
+EVENTHUB_NAME = os.getenv("EVENTHUB_NAME")
 savedata = savedata()
 
 def on_event(partition_context, event):
